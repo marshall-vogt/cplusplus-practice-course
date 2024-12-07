@@ -50,7 +50,12 @@ int main() {
     cout << "Price per room: $" << price_per_room << endl;
     cout << "Cost : $" << price_per_room * number_of_rooms << endl;
     cout << "Tax: $" << price_per_room * number_of_rooms * sales_tax << endl;
-    cout << "===============================" << endl;
+    cout << "  =  =  =  =  =  =  =  =  =  = " << endl;
+    cout << "=  =  =  =  =  =  =  =  =  =  =" << endl;
+    cout << "==  =  =  =  =  =  =  =  =  =  " << endl;
+    cout << "===  =  =  =  =  =  =  =  =  = " << endl;
+    cout << "====  =  =  =  =  =  =  =  =  =" << endl;
+    cout << "=====  =  =  =  =  =  =  =  =  " << endl;
     cout << "Total estimate: $" << (price_per_room * number_of_rooms) + (price_per_room * number_of_rooms * sales_tax) << endl;
     cout << "This estimate is valid for " << estimate_expiry << " days" << endl;
     
