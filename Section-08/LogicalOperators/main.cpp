@@ -46,7 +46,7 @@ int main() {
     int wind_speed {};
     
     const int wind_speed_for_coat { 25 };       // wind over this value requires a coat
-    const double temperature_for_coat {45}; // temperature below this value requires a coat
+    const double temperature_for_coat {75}; // temperature below this value requires a coat
     
     // Require a coat if either wind is too high OR temperature is too low
     cout << "\nEnter the current temperature in (F) :" ;
